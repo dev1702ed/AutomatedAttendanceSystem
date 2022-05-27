@@ -10,12 +10,7 @@ Promise.all([
   ]).then(faceExists)
 
    function faceExists(){
-      
-    //   const rollno1 = rollno.value;
-      
-      
-        const regform = document.getElementById("register_form");
-      
+         const regform = document.getElementById("register_form");
          regform.addEventListener('submit',async (event)=>{
           document.getElementById('spinner').style.display = 'block';   
           event.preventDefault();

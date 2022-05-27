@@ -7,7 +7,6 @@ const studentSchema = new Schema({
     dateofreg: String,
     Rollno: String,
     attendance: [String]
-    // image: String
 })
 
 const student = mongoose.model('student', studentSchema);

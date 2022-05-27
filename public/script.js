@@ -46,19 +46,9 @@ video.addEventListener('play',async (e) => {
                  window.location.href = "/recorded/"+label;
                  clearInterval(t);
            }
-          
-           
-
-       }
+        }
        canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height)
-       
-       
-      
-       
-      
-      
     }
-    
   }, 100)
 })
 

@@ -62,7 +62,7 @@ exports.viewAll = (req,res) => {
 exports.postRegister = (req,res) => {
     const fname = req.file.filename;
     var dateObj = new Date();
-    var month = dateObj.getUTCMonth() + 1; //months from 1-12
+    var month = dateObj.getUTCMonth() + 1; 
     if(month<10){month="0"+month}
     var day = dateObj.getUTCDate();
     if(day<10){day="0"+day}
