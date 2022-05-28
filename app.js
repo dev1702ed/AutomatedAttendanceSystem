@@ -28,7 +28,7 @@ mongoose.connect('mongodb+srv://devd:gotohell789@cluster0.vrmxn.mongodb.net/?ret
 
 
 app.set('view engine', 'ejs');
- app.listen(3000, ()=>{
+ app.listen(process.env.PORT || 3000, ()=>{
      console.log("up and running");
  })
 
